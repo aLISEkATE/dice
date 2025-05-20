@@ -1,8 +1,11 @@
-
 .dice {
-  border: 1px solid black;
   border-radius: 10px;
   padding: 8px 10px;
   margin-bottom: 10px;
+  
 }
-    
+  
+.dice img {
+  opacity: 0.5; /* Makes the dice images slightly transparent */
+
+}

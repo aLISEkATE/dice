@@ -22,7 +22,7 @@ function Dice() {
           <h2>Metamais kauliņš</h2>
           <button onClick={rollDice}>Mest</button>
           <p>Jūs uzmetāt: <strong>{diceValue}</strong></p>
-          <img src={diceImages[diceValue - 1]} alt={"Metamais kauliņš " + diceValue} />
+          <img  className="dice" src={diceImages[diceValue - 1]} alt={"Metamais kauliņš " + diceValue} />
         </article>
       );
 }
